@@ -6,6 +6,10 @@
   "author": "Marcos Vaz",
   "license": "MIT",
   "scripts": {
-    "dev": "sass --watch styles/styles.scss styles/styles.css"
+    "dev": "sass --watch styles/styles.scss styles/styles.css",
+    "build": "yarn && npx sass styles/styles.scss styles/styles.css"
+  },
+  "devDependencies": {
+    "sass": "^1.26.9"
   }
 }
