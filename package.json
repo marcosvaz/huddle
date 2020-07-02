@@ -1,0 +1,11 @@
+{
+  "name": "huddle",
+  "version": "1.0.0",
+  "description": "Frontend Mentor Challenge - Huddle",
+  "main": "index.js",
+  "author": "Marcos Vaz",
+  "license": "MIT",
+  "scripts": {
+    "dev": "sass --watch styles/styles.scss styles/styles.css"
+  }
+}
